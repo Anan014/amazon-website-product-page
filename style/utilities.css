@@ -1,0 +1,55 @@
+:root {
+    --top-navbar-color: #131921;
+    --top-navbar-height: 60px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Amazon Ember Light;
+    src: url("/fonts/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Lt.ttf");
+}
+
+#glow-ingress-line1 {
+    font-family: "Amazon Ember Light", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#glow-ingress-line2 {
+    font-family: "Amazon Ember Light", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.flex-mother {
+    display: flex;
+}
+
+.hover-white-border:hover {
+    box-shadow: 0 0 0 1px #ffffff;
+    border-radius: 1px;
+}
+
+.main-container {
+    width: 1500px;
+    /* background: gray; */
+    margin: auto;
+}
+
+.inner-main-container {
+    width: 1464px;
+    height: 100vh;
+    margin: auto;
+}
+
+.the-product-guys {
+    height: 635px;
+}
+
+.hr-fkn-width {
+    width: 1200px;
+}
